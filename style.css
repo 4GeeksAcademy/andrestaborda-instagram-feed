@@ -3,5 +3,36 @@ body{
   font-style: normal;
 }
 
+.nav-link{
+  color: gray;
+}
+
+a{
+  cursor: pointer;
+}
+
+#pills-tab a[aria-selected="true"]{
+  color: blue;
+}
+
+@media (width < 500px){
+  .card-title{
+    font-size: small;
+    margin: 0;
+  }
+  .card-title + span{
+    font-size: small;
+  }
+}
+@media (width >= 500px){
+  
+  .card-title + span{
+    font-size: 1.4rem;
+  }
+}
+
+
+
+
 
 

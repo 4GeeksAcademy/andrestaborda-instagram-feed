@@ -86,7 +86,7 @@
     </nav>
 
     <main class="container-fluid text-center px-3">
-        <div class="w-100 my-3">
+        <!-- <div class="w-100 my-3">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">
@@ -99,34 +99,93 @@
                     </a>
                 </li>
             </ul>
-        </div>
-        <div class="row">
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_1.JPG" alt="" class="w-100 h-100 object-fit-cover">
+        </div> -->
+        <ul class="nav justify-content-center mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" role="tab" data-bs-toggle="pill" data-bs-target="#home"
+                    aria-selected="true">
+                    <i class="bi bi-grid-3x3"></i>
+                </a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="feed-tab" role="tab" data-bs-toggle="pill" data-bs-target="#feed"
+                    aria-selected="false">
+                    <i class="bi bi-square-fill"></i>
+                </a>
+            </li>
+
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <section class="row">
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_1.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_2.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_3.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_4.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_5.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_6.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_7.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_8.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                    <div class="col-6 col-md-4 p-1 ratio-1x1">
+                        <img src="./assets/image_9.JPG" alt="" class="w-100 h-100 object-fit-cover">
+                    </div>
+                </section>
             </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_2.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_3.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_4.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_5.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_6.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_7.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_8.JPG" alt="" class="w-100 h-100 object-fit-cover">
-            </div>
-            <div class="col-6 col-md-4 p-1 ratio-1x1">
-                <img src="./assets/image_9.JPG" alt="" class="w-100 h-100 object-fit-cover">
+            <div class="tab-pane fade mb-5" id="feed" role="tabpanel" aria-labelledby="feed-tab" tabindex="0">
+                <section class="d-flex flex-column justify-content-center align-items-center gap-5">
+                    <div class="card col-12 col-sm-7 px-0">
+                        <div class="card-header d-flex justify-content-between bg-white">
+                            <h2 class="card-title">My Crazy dog Spark!</h2>
+                            <span class=" fw-medium">08/26</span>
+                        </div>
+                        <img src="./assets/image_feed_1.JPG" class="card-img-top rounded-0" alt="Dog">
+                        <div class="card-body text-start">
+                            <span class="fw-bold">204 Likes</span>
+                            <p class="card-text">This is an example of a very good photo thah you can post on instagram
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-sm-7 px-0">
+                        <div class="card-header d-flex justify-content-between bg-white">
+                            <h2 class="card-title">The gratness of Croatia</h2>
+                            <span class=" fw-medium">04/09</span>
+                        </div>
+                        <img src="./assets/image_feed_2.JPG" class="card-img-top rounded-0" alt="Dog">
+                        <div class="card-body text-start">
+                            <span class="fw-bold">26985 Likes</span>
+                            <p class="card-text">This is an example of a very good photo thah you can post on instagram
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-sm-7 px-0">
+                        <div class="card-header d-flex justify-content-between bg-white">
+                            <h2 class="card-title">Amazing Goal by Cristiano!</h2>
+                            <span class=" fw-medium">06/10</span>
+                        </div>
+                        <img src="./assets/image_feed_3.JPG" class="card-img-top rounded-0" alt="Dog">
+                        <div class="card-body text-start">
+                            <span class="fw-bold">204 Likes</span>
+                            <p class="card-text">This is an example of a very good photo thah you can post on instagram
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </main>
